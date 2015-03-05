@@ -40,9 +40,13 @@ html {
 }
 
 #todo-stats,
-.todo-clear { color: #777; }
+.todo-clear { 
+  color: #777; 
+}
 
-.todo-clear { float: right; }
+.todo-clear { 
+  float: right; 
+}
 
 .todo-done .todo-content {
     color: #666;
@@ -50,9 +54,13 @@ html {
 }
 
 .todo-edit,
-.editing .todo-view { display: none; }
+.editing .todo-view { 
+  display: none; 
+}
 
-.editing .todo-edit { display: block; }
+.editing .todo-edit { 
+  display: block; 
+}
 
 .todo-input {
     display: block;
@@ -107,5 +115,7 @@ html {
   visibility: visible; 
 }
 
-.editing .todo-remove-icon { visibility: hidden; }
+.editing .todo-remove-icon { 
+  visibility: hidden; 
+}
 </style>
