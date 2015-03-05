@@ -23,7 +23,7 @@ body {
 }
 
 .box {
-    background-color: cadetblue;
+    background-color: white;
     margin: 5% 10% 0;
     overflow: hidden;
     padding-top: 1em;
@@ -38,7 +38,7 @@ form {
     font-size: 1.5em;
     margin: 0 auto;
     display: block;
-    color: darkmagenta;
+    color: black;
 }
 
 input {
@@ -48,7 +48,7 @@ input {
     float: left;
     padding: 1em;
     margin-left: 3.5em;
-    border: 1px solid dimgrey;
+    border: 1px solid black;
 }
 
 button {
@@ -59,7 +59,7 @@ button {
     text-align: center;
     padding: .5em 1.5em;
     margin: 0;
-    color: darkmagenta;
+    color: black;
     float: left;
 }
 
@@ -80,17 +80,17 @@ li {
     text-align: center;
     margin: .5em;
     padding: 0;
-    border: 1px solid dimgray;
+    border: 1px solid black;
     border-radius: .5em;
-    background-color: lightgray;
+    background-color: white;
     height: 20px;
     width: 20px;
     overflow: hidden;
 }
 
 .xbutton:hover {
-    color: cornflowerblue;
-    background-color: dimgray;
+    color: blue;
+    background-color: white;
 }
 
 .remove {
@@ -100,5 +100,5 @@ li {
 
 .done {
     text-decoration: line-through;
-    color: cornflowerblue;
+    color: blue;
 }
