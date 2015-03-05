@@ -1,53 +1,24 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en-ca">    
 <head>
-	<meta charset="utf-8">
-	<title>To Do List</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="css/grids.css" rel="stylesheet">
-    <link href="css/typography.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Assignment 5</title>
     <link href="css/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-    
-  <div id="todo-app">
-    <label class="todo-label" for="new-todo">What do you want to do today?</label>
-    <input type="text" id="new-todo" class="todo-input"
-        placeholder="buy milk">
-
-    <ul id="todo-list"></ul>
-    <div id="todo-stats"></div>
-</div>
   
-  <script type="text/x-template" id="todo-item-template">
-    <div class="todo-view">
-        <input type="checkbox" class="todo-checkbox" {checked}>
-        <span class="todo-content" tabindex="0">{text}</span>
-    </div>
+<div class="box">
+    <form method="post" action="">
+        <label class="title" for="the-items">What Do You Want To Do Today?:</label>
+        <input id="the-items" placeholder="buy milk">
+        <button type="submit">Add</button>
+    </form>
+    <ul class="list"></ul>
+</div>    
 
-    <div class="todo-edit">
-        <input type="text" class="todo-input" value="{text}">
-    </div>
-
-    <a href="#" class="todo-remove" title="Remove this task">
-        <span class="todo-remove-icon"></span>
-    </a>
-</script>
-
-<script type="text/x-template" id="todo-stats-template">
-    <span class="todo-count">
-        <span class="todo-remaining">{numRemaining}</span>
-        <span class="todo-remaining-label">{remainingLabel}</span> left.
-    </span>
-
-    <a href="#" class="todo-clear">
-        Clear <span class="todo-done">{numDone}</span>
-        completed <span class="todo-done-label">{doneLabel}</span>
-    </a>
-</script> 
-  
-<script src="http://yui.yahooapis.com/3.18.1/build/yui/yui-min.js"></script>  
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/main.js"></script>    
     
-<script src="js/main.js"></script>   
 </body>
 </html>
